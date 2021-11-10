@@ -1,0 +1,448 @@
+/***************************************************              HEALTH STYLES             ***************************************************/
+#wrapper {
+/* width: 1920px; */
+}
+#content {
+    /* width: 1920px; */
+    margin: 0 auto;
+}
+.layout {
+  width: 1240px;
+}
+h1 {
+  text-indent: -9999px;
+}
+h2 {
+  width: 366px;
+  margin: 20px auto 20px auto;
+  font-family: Yanone Kaffeesatz;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #3967B1;
+  text-shadow: 0px 1px 10px rgba(81, 81, 81, 0.2);
+}
+.base.top ul li {
+  font-family: Yanone Kaffeesatz;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 121.18%;
+  color: #434343;
+}
+.base.top ul li span {
+  font-family: Yanone Kaffeesatz;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 76px;
+  color: #FFFFFF;
+
+  /* position: relative;
+  padding: 0 35px 0 0;
+  z-index: 2; */
+}
+.base.top a {
+  padding: 10px 10px 10px 10px;
+  display: block;
+  width: 300px;
+  height: 50px;
+  background: #34BF81;
+  box-shadow: 0px 1px 10px rgba(81, 81, 81, 0.2);
+  border-radius: 35px;
+  font-family: Yanone Kaffeesatz;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 121.18%;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+.base.top a:hover, .program a:hover,
+.registration input[type=button]:hover,
+.benefit-text p a:hover {
+  background: #4684D7;
+}
+.base.top a:active, .program a:active,
+.registration input[type=button]:active,
+.benefit-text p a:active {
+  background: #4684D7;
+}
+ul.flex {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+ul.flex li {
+  width: 300px;
+}
+
+ul.flex li:nth-child(n+4) {
+  align-self: flex-end;
+  align-content: flex-end;
+  flex-direction: row-reverse;
+}
+ul.flex li span {
+  padding: 0 10px 0 10px;
+}
+/* .base.top ul li:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  height: 5px;
+  z-index: 1;
+} */
+h3 {
+  font-family: Yanone Kaffeesatz;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #34BF81;
+  margin: 20px auto 20px 0;
+}
+h4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 20px;
+  width: 282px;
+  background: #4684D7;
+  border-radius: 5px;
+  font-family: Yanone Kaffeesatz;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 121.18%;
+  color: #FFFFFF;
+  order: 0;
+  margin: 0 auto 0 auto;
+}
+nav ul li {
+  /* width: 40px;*/
+  height: 29px;
+  font-family: Yanone Kaffeesatz;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 121.18%;
+  color: #434343;
+  display: inline-block;
+}
+nav ul.left {
+  float: left;
+}
+nav ul.left li {
+}
+nav ul.right {
+  float: right;
+}
+nav ul li.first {
+  margin: 0 94px 0 0;
+}
+.logo {
+
+}
+.base {
+  width: 100%;
+  padding: 30px 0 30px 0;
+}
+.top {
+  background-image: url(../images/raspberries-bg.png);
+}
+.top, .forms {
+  background-position: center;
+}
+.arrow {
+
+}
+.why {
+  width: 315px;
+  height: 295px;
+  float: left;
+  margin: 0 0 0 75px;
+
+}
+.why p {
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 121.18%;
+color: #000000;
+text-align: left;
+}
+.programs {
+  background-image: url(../images/lines-bg.png)
+}
+.programs {
+  height: 719px;
+}
+.program {
+  width: 390px;
+  float: left;
+  margin: 0 30px 0 0;
+}
+.program:last-child {
+  margin: 0 0 0 0;
+}
+.program-body {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 10px rgba(81, 81, 81, 0.2);
+  border-radius: 5px;
+  padding: 25px;
+}
+.program-body p {
+  width: 250px;
+  font-family: Yanone Kaffeesatz;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 121.18%;
+  color: #434343;
+  margin: 0 auto 0 auto;
+  padding: 0 0 20px 0;
+}
+.program-body img {
+  width: 340px;
+  height: 340px;
+}
+.program a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 25px 25px 25px;
+  width: 240px;
+  height: 50px;
+  background: #34BF81;
+  box-shadow: 0px 1px 10px rgba(81, 81, 81, 0.2);
+  border-radius: 35px;
+  font-family: Yanone Kaffeesatz;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 121.18%;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 auto 0 auto;
+}
+.forms {
+  background-image: url(../images/pineapple-bg.png)
+}
+.calculator {
+  width: 580px;
+  float: left;
+  height: 620px;
+}
+.calculator h3, .registration h3 {
+  text-align: left;
+}
+.calculator p, .calculator label,
+.calculator input[type=text]::placeholder,
+.form-btn button{
+  font-family: Yanone Kaffeesatz;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 121.18%;
+  color: #434343;
+}
+.calculator p {
+  margin: 25px 0 0 0;
+}
+.calculator .form-row {
+  display: flex;
+}
+.calculator input[type=text] {
+  margin: 0 10px 0 0;
+  width: 180px;
+  height: 50px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 10px rgba(81, 81, 81, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  border: 0;
+}
+.form-radio-btn {
+	display: inline-block;
+	margin-right: 10px;
+}
+.form-radio-btn input[type=radio] {
+	display: none;
+}
+.form-radio-btn label, .form-btn button {
+	display: inline-block;
+	cursor: pointer;
+  width: 180px;
+  height: 50px;
+  text-align: center;
+	line-height: 50px;
+	user-select: none;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 10px rgba(81, 81, 81, 0.2);
+  border-radius: 5px;
+}
+.form-btn {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 0 0;
+}
+.form-btn p {
+  line-height: 50px;
+  margin: 0 0 0 0;
+}
+.form-btn button {
+  float: right;
+  background: #4684D7;
+  color: #FFFFFF;
+  margin: 0 20px 0 0;
+  border: 0;
+}
+
+/* Checked */
+.form-radio-btn input[type=radio]:checked + label {
+	background: #4684D7;
+  color: #FFFFFF;
+}
+
+/* Hover */
+/* .form-radio-btn label:hover {
+	color: #666;
+} */
+
+.registration {
+  width: 453px;
+  float: right;
+}
+.registration p, .registration label,
+.registration input[type=text]::placeholder {
+font-family: Yanone Kaffeesatz;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 121.18%;
+color: #434343;
+}
+.registration input[type=text]::placeholder{
+  opacity: 0.3;
+  line-height: 100px;
+}
+.registration input[type=text] {
+  width: 450px;
+  height: 50px;
+  left: 1050px;
+  top: 2530px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 10px rgba(81, 81, 81, 0.2);
+  border-radius: 5px;
+  border: 0;
+  padding: 0 0 0 25px;
+}
+.registration label {
+  margin: 25px 0 0 0;
+  display: inline-block;
+}
+.registration input[type=button] {
+  width: 240px;
+  height: 50px;
+  background: #34BF81;
+  box-shadow: 0px 1px 10px rgba(81, 81, 81, 0.2);
+  border-radius: 35px;
+  font-family: Yanone Kaffeesatz;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 121.18%;
+  color: #FFFFFF;
+  float: right;
+  margin: 45px 0 0 0;
+  border: 0;
+}
+.benefits {
+  height: 300px;
+  width: 900px;
+  margin: 0 auto 0 auto;
+}
+.benefit {
+  width: 183px;
+  float: left;
+  margin: 0 20px 0 20px;
+}
+.benefit p {
+  width: 154px;
+  height: 87px;
+  font-family: Yanone Kaffeesatz;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 121.18%;
+  text-align: center;
+  color: #434343;
+}
+.benefit-text {
+  text-align: center;
+  margin: 30px auto 30px auto;
+}
+.benefit-text p {
+  font-family: Yanone Kaffeesatz;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #3967B1;
+}
+.benefit-text p a {
+  width: 240px;
+  height: 50px;
+  background: #34BF81;
+  box-shadow: 0px 1px 10px rgba(81, 81, 81, 0.2);
+  border-radius: 35px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 24px;
+}
+footer {
+  height: 150px;
+  background: #4684D7;
+}
+footer .layout {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-item {
+  margin: 31px 0 30px 0;
+}
+.footer-item.text {
+  height: 89px;
+}
+.footer-item.text p {
+  font-family: Yanone Kaffeesatz;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 89px;
+color: #FFFFFF;
+}
+.footer-item.text p a {
+  color: #ffffff;
+}
+.footer-item.text p a:hover {
+  color: #00ffff;
+}
+.footer-item.text p a img {
+  vertical-align: middle;
+  margin: 0 10px 0 10px;
+}
